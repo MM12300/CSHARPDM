@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HeritageEtInterfaceCorrection
 {
-    class Zombie : Undead, IScavenger
+    class Zombie : Undead, IScavenger 
     {
         public Zombie(string name) : base(name, 100, 0, 20, 50, 1000, (ConsoleColor)7) { }
 
